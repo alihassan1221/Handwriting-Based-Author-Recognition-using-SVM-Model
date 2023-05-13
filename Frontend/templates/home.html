@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Author Recognition</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+				<a href="{{ url_for('home')}}"><img src="{{ url_for('static', filename='Scet Logo.png') }}" alt="Logo"></a>
+			</div>			
+            <ul class="menu">
+                <li><a href={{ url_for('home') }}>Home</a></li>
+                <li><a href={{ url_for('prediction') }}>Predict</a></li>
+                <li><a href={{ url_for('contact') }}>Contact Us</a></li>
+            </ul>
+        </nav>
+        <section class="welcome" id="home">
+			<h1>Handwriting Based Author Recognition</h1>
+			<div class="button-container">
+				<a href="{{ url_for('prediction') }}" class="predict-button">Predict Author</a>
+			</div>
+		</section>
+		<footer>
+			<p>Sharif College of Engineering and Technology | Computer Science Department</p>
+			<p>&copy; Made by Ali Hassan</p>
+		 </footer>		 
+    </div>
+</body>
+</html>
