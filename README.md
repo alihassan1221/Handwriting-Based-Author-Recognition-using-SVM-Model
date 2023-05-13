@@ -11,3 +11,5 @@ Steps to Run this Project
 4. It takes time while preprocessing and Augmentation Techniques as these steps also save the images in Drive
 5. Make Sure you must have atleast enough space according to the dataset (i have upload only dataset of few persons for only using to test the working you can use yours)
 6. After Training you are able to save the trained model which then also is useable in frontend to identify the name of writer on new test image.
+7. When you save the trained model (svm_model.pkl) after training is done in Google drive the next cell in Colab is to predict the name on the new test image. (Make sure you change the path of test image according to where you save the image for test in your Google Drive).
+8. This trained model is used in frontend as well by downloading it and place that model in Frontend directory.
