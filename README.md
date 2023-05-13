@@ -5,7 +5,7 @@ I have done this Project with dedication and hard work in My FYP (Final Year Pro
 To run this code in Your machine you have to open Google Colab and there is no libraries issues (importing issues and also there is no need to install any library for this project)
 
 Steps to Run this Project
-1. Collect the Dataset of handwriting and save it in Google drive in directory Writers which is subdirectory of Data (Data is the main Directory)
+1. Collect the Dataset of handwriting and save it in Google drive in directory Writers which is subdirectory of Data (Data is the main Directory). If you change the name of directory then make sure to change the path in code as well.
 2. Open Handwriting_Based_Writer_Identification.ipynb file in Google Colab
 3. Run the Code Step by Step in Google Colab
 4. It takes time while preprocessing and Augmentation Techniques as these steps also save the images in Drive
